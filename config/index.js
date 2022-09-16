@@ -103,13 +103,13 @@ export const config = {
       horoscopeDate: '08-10',
       horoscopeDateType: '今日',
       openUrl: "https://agit.ai/xiaowei/TV/raw/branch/master/TV/W-.png",
-      festivals: [        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+      festivals: [     
         {"type": "*生日", "name": "龙龙", "year": "1998", "date": "06-24"},
         {"type": "结婚", "name": "结婚纪念日", "year": "2021", "date": "10-13"}, 
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
          {"type": "*生日", "name": "葳葳", "year": "1995", "date": "07-24"},
         {"type": "第一次见面", "name": "搭讪日", "year": "2019", "date": "12-04"},],
-      customizedDateList: []
+      customizedDateList: [ {"keyword": "love_day", date: "2020-02-14"},
+        {"keyword": "marry_day", date: "2021-10-13"},]
     },
     {
       name: "葳葳",
@@ -120,13 +120,13 @@ export const config = {
       horoscopeDate: '09-08',
       horoscopeDateType: '今日',
       openUrl: "https://agit.ai/xiaowei/TV/raw/branch/master/TV/W-.png",
-      festivals: [        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+      festivals: [      
         {"type": "*生日", "name": "龙龙", "year": "1998", "date": "06-24"},
         {"type": "结婚", "name": "结婚纪念日", "year": "2021", "date": "10-13"}, 
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
          {"type": "*生日", "name": "葳葳", "year": "1995", "date": "07-24"},
         {"type": "第一次见面", "name": "搭讪日", "year": "2019", "date": "12-04"},],
-      customizedDateList: []
+      customizedDateList: [ {"keyword": "love_day", date: "2020-02-14"},
+        {"keyword": "marry_day", date: "2021-10-13"},]
     },
 
     // 你可以不断按格式往下增加
