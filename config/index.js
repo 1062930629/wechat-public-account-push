@@ -60,15 +60,15 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "龙♡葳——伴爱一生",
+      name: "龙龙",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "我想你找我（无论什么都好、就算找我说废话也好，我真的很喜欢你找我，老婆），我会努力的，给点时间我，我现在有时间就去接点兼职做着先，房子会有的",
+      useTemplateId: "",
       // 所在省份
       province: "广东",
       // 所在城市
-      city: "信宜",
+      city: "茂名",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '08-10',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -99,11 +99,16 @@ export const config = {
       id: "oAq-K5nfEOXOQUtWGNI_0hTM-fgM",
       useTemplateId: "2pU_qufc2czhmrfjbIbvcvlJ5R6lbYXr8eL5sV3NzIk",
       province: "",
-      city: "信宜",
-      horoscopeDate: '',
-      horoscopeDateType: '',
+      city: "茂名",
+      horoscopeDate: '08-10',
+      horoscopeDateType: '今日',
       openUrl: "https://agit.ai/xiaowei/TV/raw/branch/master/TV/W-.png",
-      festivals: [],
+      festivals: [        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {"type": "*生日", "name": "龙龙", "year": "1998", "date": "06-24"},
+        {"type": "结婚", "name": "结婚纪念日", "year": "2021", "date": "10-13"}, 
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+         {"type": "*生日", "name": "葳葳", "year": "1995", "date": "07-24"},
+        {"type": "第一次见面", "name": "搭讪日", "year": "2019", "date": "12-04"},],
       customizedDateList: []
     },
     {
@@ -111,11 +116,16 @@ export const config = {
       id: "oAq-K5vVi3LcvQuUN6wPT1koj_D4",
       useTemplateId: "2pU_qufc2czhmrfjbIbvcvlJ5R6lbYXr8eL5sV3NzIk",
       province: "",
-      city: "东莞",
-      horoscopeDate: '',
-      horoscopeDateType: '',
+      city: "茂名",
+      horoscopeDate: '09-08',
+      horoscopeDateType: '今日',
       openUrl: "https://agit.ai/xiaowei/TV/raw/branch/master/TV/W-.png",
-      festivals: [],
+      festivals: [        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {"type": "*生日", "name": "龙龙", "year": "1998", "date": "06-24"},
+        {"type": "结婚", "name": "结婚纪念日", "year": "2021", "date": "10-13"}, 
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+         {"type": "*生日", "name": "葳葳", "year": "1995", "date": "07-24"},
+        {"type": "第一次见面", "name": "搭讪日", "year": "2019", "date": "12-04"},],
       customizedDateList: []
     },
 
