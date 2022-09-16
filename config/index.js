@@ -188,7 +188,7 @@ export const config = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 2,
+  FESTIVALS_LIMIT: 4,
 
   /** 日期相关 */
 
@@ -196,9 +196,9 @@ export const config = {
     * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
     * 比如：keyword: "love_date" ，在测试号中就是 {{ love_date.DATA }}
     * */
- // CUSTOMIZED_DATE_LIST: [
+   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-   // {"keyword": "love_day", date: "2020-02-14"},
+     {"keyword": "love_day", date: "2020-02-14"},
     // 结婚纪念日
     {"keyword": "marry_day", date: "2021-10-13"},
     // 退伍日
