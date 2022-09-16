@@ -111,7 +111,7 @@ export const config = {
       id: "oAq-K5vVi3LcvQuUN6wPT1koj_D4",
       useTemplateId: "2pU_qufc2czhmrfjbIbvcvlJ5R6lbYXr8eL5sV3NzIk",
       province: "",
-      city: "信宜",
+      city: "东莞",
       horoscopeDate: '',
       horoscopeDateType: '',
       openUrl: "https://agit.ai/xiaowei/TV/raw/branch/master/TV/W-.png",
@@ -172,23 +172,23 @@ export const config = {
    * 删除isShowAge属性，也会不展示岁数
    * --- 是否展示周岁信息结束 ---
    */
-  //FESTIVALS: [
+  FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-  //  {"type": "*生日", "name": "老婆", "year": "1998", "date": "06-24", isShowAge: true},
-   // {"type": "结婚", "name": "结婚纪念日", "year": "2020", "date": "10-13"},
+      {"type": "*生日", "name": "老婆", "year": "1998", "date": "06-24", isShowAge: true},
+     {"type": "结婚", "name": "结婚纪念日", "year": "2020", "date": "10-13"},
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-  //  {"type": "*生日", "name": "葳葳", "year": "1995", "date": "07-24", isShowAge: true},
-   // {"type": "第一次见面", "name": "搭讪日", "year": "2019", "date": "12-04"},
+     {"type": "*生日", "name": "葳葳", "year": "1995", "date": "07-24", isShowAge: true},
+     {"type": "第一次见面", "name": "搭讪日", "year": "2019", "date": "12-04"},
     // 你可以不断按格式往下增加
     // ...
- // ],
+   ],
 
   /**
    * 限制重要节日的展示条目, 需要填写数字;
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 4,
+  FESTIVALS_LIMIT: 2,
 
   /** 日期相关 */
 
