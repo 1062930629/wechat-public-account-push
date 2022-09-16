@@ -74,7 +74,7 @@ export const config = {
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://wangxinleo.cn",
+      openUrl: "https://agit.ai/xiaowei/TV/raw/branch/master/TV/W-.png",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
@@ -102,7 +102,7 @@ export const config = {
       city: "信宜",
       horoscopeDate: '',
       horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
+      openUrl: "https://agit.ai/xiaowei/TV/raw/branch/master/TV/W-.png",
       festivals: [],
       customizedDateList: []
     },
@@ -114,22 +114,11 @@ export const config = {
       city: "信宜",
       horoscopeDate: '',
       horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
+      openUrl: "https://agit.ai/xiaowei/TV/raw/branch/master/TV/W-.png",
       festivals: [],
       customizedDateList: []
     },
-    {
-      name: "孩子",
-      id: "",
-      useTemplateId: "2pU_qufc2czhmrfjbIbvcvlJ5R6lbYXr8eL5sV3NzIk",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
+
     // 你可以不断按格式往下增加
     // ...
   ],
@@ -183,16 +172,16 @@ export const config = {
    * 删除isShowAge属性，也会不展示岁数
    * --- 是否展示周岁信息结束 ---
    */
-  FESTIVALS: [
+  //FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {"type": "*生日", "name": "老婆", "year": "1998", "date": "06-24", isShowAge: true},
-    {"type": "结婚", "name": "结婚纪念日", "year": "2020", "date": "10-13"},
+  //  {"type": "*生日", "name": "老婆", "year": "1998", "date": "06-24", isShowAge: true},
+   // {"type": "结婚", "name": "结婚纪念日", "year": "2020", "date": "10-13"},
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-    {"type": "*生日", "name": "葳葳", "year": "1995", "date": "07-24", isShowAge: true},
-    {"type": "第一次见面", "name": "搭讪日", "year": "2019", "date": "12-04"},
+  //  {"type": "*生日", "name": "葳葳", "year": "1995", "date": "07-24", isShowAge: true},
+   // {"type": "第一次见面", "name": "搭讪日", "year": "2019", "date": "12-04"},
     // 你可以不断按格式往下增加
     // ...
-  ],
+ // ],
 
   /**
    * 限制重要节日的展示条目, 需要填写数字;
@@ -207,9 +196,9 @@ export const config = {
     * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
     * 比如：keyword: "love_date" ，在测试号中就是 {{ love_date.DATA }}
     * */
-  CUSTOMIZED_DATE_LIST: [
+ // CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2020-02-14"},
+   // {"keyword": "love_day", date: "2020-02-14"},
     // 结婚纪念日
     {"keyword": "marry_day", date: "2021-10-13"},
     // 退伍日
