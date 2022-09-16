@@ -118,7 +118,7 @@ export const config = {
       festivals: [],
       customizedDateList: []
     },
-   // {
+    {
       name: "孩子",
       id: "",
       useTemplateId: "2pU_qufc2czhmrfjbIbvcvlJ5R6lbYXr8eL5sV3NzIk",
